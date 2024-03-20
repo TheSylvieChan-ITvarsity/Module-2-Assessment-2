@@ -5,6 +5,14 @@ body {
     font-family: "Albert Sans", sans-serif;
 }
 
+img {
+    border-radius: 10px;
+}
+
+.content a {
+    border-radius: 10px;
+}
+
 .row {
     width: 100%;
     display: flex;
@@ -50,7 +58,7 @@ body {
     margin: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
-  
+    border-radius: 10px;
     background-color:#edf3f3;
 }
 
@@ -65,6 +73,8 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .content h2 {
@@ -78,6 +88,9 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 }
 
 .content h3 {
@@ -104,4 +117,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 }
