@@ -13,9 +13,34 @@ img {
     border-radius: 10px;
 }
 
+.content hr {
+    width: 93%;
+    border: none;
+    height: 1px;
+    background-color: #b4b4b4;
+    margin-top: -3px;
+    margin-bottom: 0px;
+}
+
 .row {
     width: 100%;
     display: flex;
+}
+
+.quarter {
+    width:25%;
+    display: block;
+    text-align:center;
+}
+
+.threequarter {
+    width: 75%;
+    display:block;
+    text-decoration: none;
+    color: #004c4c;
+    font-weight: 600;
+    padding-top: 12px;
+    font-size: 18px;
 }
 
 .third {
@@ -23,6 +48,12 @@ img {
     min-width: 33%;
     display: block;
     text-align: center; 
+}
+
+.twothird {
+    width: 66%;
+    display: block;
+
 }
 
 .half {
@@ -50,8 +81,15 @@ img {
  background-color: #b2d8d8;
 }
 
-.half img {
+.half img, .quarter img, .full img, .threequarter img {
     width: 100%;
+}
+
+.shoplogo {
+    padding:10px;
+    max-height: 25px;
+    max-width: 25px;
+    border-radius: 50px;
 }
 
 .content {
