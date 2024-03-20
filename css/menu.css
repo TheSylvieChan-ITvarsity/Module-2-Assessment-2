@@ -17,7 +17,7 @@
     font-weight: 600;
     text-decoration: none;
     color: white;
-  
+    font-size: 18px;
 }
 
 .menu-bar a:hover {
@@ -41,6 +41,10 @@
     top: 0;
 }
 
+.logo {
+    width: 20px; float:left; padding-top:15px; padding-left: 10px; padding-right:7px
+}
+
 .active {
     color: white;
   }
@@ -49,12 +53,10 @@
     display: none;
     width: 100%;
     padding: 0px;
-    background-color: #006666;
-    color: white;
   }
   #navlinks a{
     display: block;
-    width: 100%;
+    max-width: 100%;
     padding: 15px;
     background-color: #006666;
     color: white;
@@ -63,4 +65,9 @@
 
   #navlinks a:hover {
     background-color: #008080;
+  }
+
+  .menu-last {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }

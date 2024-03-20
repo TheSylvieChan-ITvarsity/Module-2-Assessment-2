@@ -107,8 +107,8 @@ img {
 }
 
 .content h4 {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 22px;
+    
     text-align: center;
     background-color:  	#b2d8d8;
     margin-top:0px;
@@ -120,4 +120,7 @@ img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.img-under-header {
+    border-top-left-radius: 0px; border-top-right-radius: 0px;
 }
