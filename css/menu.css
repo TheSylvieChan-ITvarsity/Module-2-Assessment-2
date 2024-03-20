@@ -1,0 +1,66 @@
+.menu-bar {
+    width: 100%;
+    background-color: #004c4c;
+    color: white;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+
+.menu-bar a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  
+}
+
+.menu-bar a:hover {
+    background-color: #008080;
+    
+}
+
+.menu-bar a.icon {
+    background: #004c4c;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-bar a.icon:hover {
+    background: #008080;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    color: white;
+  }
+
+  #navlinks {
+    display: none;
+    width: 100%;
+    padding: 0px;
+    background-color: #006666;
+    color: white;
+  }
+  #navlinks a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #006666;
+    color: white;
+    text-decoration: none;
+  }
+
+  #navlinks a:hover {
+    background-color: #008080;
+  }

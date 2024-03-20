@@ -1,0 +1,107 @@
+body {
+    margin: 0px;}
+
+* {
+    font-family: "Albert Sans", sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.third {
+    width: 33%;
+    min-width: 33%;
+    display: block;
+    text-align: center; 
+}
+
+.half {
+    width: 50%;
+    min-width: 50%;
+    display: block; 
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.full {
+    width: 100%;
+    display: block; 
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+.half:hover {
+    background-color: #b2d8d8;
+}
+
+.half:hover > h3 {
+ background-color: #b2d8d8;
+}
+
+.half img {
+    width: 100%;
+}
+
+.content {
+    margin: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  
+    background-color:#edf3f3;
+}
+
+.content h1 {
+    font-size: 22px;
+    text-align: center;
+    background-color: #008080;
+    color: white;
+    margin-top:-5px;
+    margin-left: -0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.content h2 {
+    font-size: 22px;
+    text-align: center;
+    background-color: #66b2b2;
+    color: white;
+    margin-top:-5px;
+    margin-left: -0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.content h3 {
+    font-size: 16px;
+    color: #004c4c;
+    font-weight: 700;
+    text-align: center;
+    margin-top:0px;
+    margin-left: -0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background-color:  	#b2d8d8;
+    margin-top:0px;
+    margin-left: -0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
