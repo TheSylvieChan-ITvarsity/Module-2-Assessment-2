@@ -82,7 +82,8 @@ img {
 }
 
 .half img, .quarter img, .full img, .threequarter img {
-    width: 100%;
+ 
+    max-height:100px;
 }
 
 .shoplogo {
