@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+
+    </head>
+    <body>
+
+        <div class="menu-bar">
+            <img src="images/cone.png" class="logo">  
+            <a href="index.html" class="active">Pine City Mall</a>
+            <a href="javascript:void(0);" class="icon" onclick="fnMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="navlinks">
+            <a href="index.html">Home</a>
+            <a href="map.html">Map</a>
+            <a href="#">Movies</a>
+            <a href="shops.html">Shops</a>
+            <a href="about.html">About Us</a>
+            <a href="#" class="menu-last">Contact Us</a>
+        </div>
+
+        <div class="content" style="background-color: white;">
+            
+            <img src="images/toysrus-logo.png" style="width: 100%;">
+            
+        </div>
+        <div class="content">
+            <h1>Toys "R" Us</h1>
+            <div class="row">
+                <div class="full">
+                    
+                    <p>Welcome to Toys "R" Us, the ultimate destination for playtime adventures and cherished childhood memories.</p>
+                    <p>For generations, Toys "R" Us has been the go-to place for kids and kids at heart to discover a world of toys, games, and fun-filled excitement. </p>
+                    <p>From classic toys that never go out of style to the latest trends that ignite imaginations, we offer a vast selection for every age and interest.</p>
+                    <p>Whether you're searching for the perfect gift, planning a birthday celebration, or simply indulging in the joy of play, Toys "R" Us is where dreams come to life. Visit us today and let the magic of playtime begin!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Tap on an image to view it!</h2>
+          
+            <div class="img-row">
+                <div class="img-column">
+                  <img src="images/toys-inside3.webp"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/toys-inside2.webp"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/toys-inside1.webp"  onclick="fnGallery(this);">
+                </div>
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="img-container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div> 
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+
+    </head>
+    <body>
+
+        <div class="menu-bar">
+            <img src="images/cone.png" class="logo">  
+            <a href="index.html" class="active">Pine City Mall</a>
+            <a href="javascript:void(0);" class="icon" onclick="fnMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="navlinks">
+            <a href="index.html">Home</a>
+            <a href="map.html">Map</a>
+            <a href="#">Movies</a>
+            <a href="shops.html">Shops</a>
+            <a href="about.html">About Us</a>
+            <a href="#" class="menu-last">Contact Us</a>
+        </div>
+
+        <div class="content" style="background-color: white;">
+            
+            <img src="images/pnp.svg" style="width: 100%;">
+            
+        </div>
+        <div class="content">
+            <h1>Pick 'n Pay</h1>
+            <div class="row">
+                <div class="full">
+                    
+                    <p>Welcome to Pick 'n Pay, your trusted neighborhood supermarket dedicated to bringing you quality products, exceptional value, and convenience.</p>
+                    <p>For over 50 years, Pick 'n Pay has been a cornerstone of South African communities, providing a wide range of groceries, fresh produce, household essentials, and more.</p>
+                    <p>Our commitment to sustainability and supporting local suppliers means you can shop with confidence, knowing that every purchase makes a difference. </p>
+                    <p>Pick 'n Pay is here to make your shopping experience simple and rewarding. Visit us today and discover why we're the heart of your community.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Tap on an image to view it!</h2>
+          
+            <div class="img-row">
+                <div class="img-column">
+                  <img src="images/pnp-inside1.webp"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/pnp-inside2.webp"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/pnp-inside3.webp"  onclick="fnGallery(this);">
+                </div>
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="img-container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div> 
+        </div>
+
+
+
+    </body>
+</html>
