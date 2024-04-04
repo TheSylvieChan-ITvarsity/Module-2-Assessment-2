@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+
+    </head>
+    <body>
+
+        <div class="menu-bar">
+            <img src="images/cone.png" class="logo">  
+            <a href="index.html" class="active">Pine City Mall</a>
+            <a href="javascript:void(0);" class="icon" onclick="fnMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="navlinks">
+            <a href="index.html">Home</a>
+            <a href="map.html">Map</a>
+            <a href="#">Movies</a>
+            <a href="shops.html">Shops</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="content" style="background-color: white;">
+            
+            <img src="images/hi-fi.svg" style="width: 100%;">
+            
+        </div>
+        <div class="content">
+            <h1>Hi-Fi Corporation</h1>
+            <div class="row">
+                <div class="full">
+                    
+                    <p>Welcome to Hi-Fi Corporation, your ultimate destination for premium audiovisual experiences. With a passion for sound and vision, Hi-Fi Corporation brings you the latest in cutting-edge technology and home entertainment solutions.</p>
+                    <p>For over 30 years, we have been synonymous with quality, offering a wide range of audio systems, televisions, home theaters, and more.</p>
+                    <p>Visit Hi-Fi Corporation to explore top brands, expert advice, and a world of audiovisual excellence.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Tap on an image to view it!</h2>
+          
+            <div class="img-row">
+                <div class="img-column">
+                  <img src="images/hifi-corp-inside1.jpg"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/hifi-corp-inside2.webp"  onclick="fnGallery(this);">
+                </div>
+                <div class="img-column">
+                  <img src="images/hifi-corp-inside3.webp"  onclick="fnGallery(this);">
+                </div>
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="img-container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div> 
+        </div>
+
+
+
+    </body>
+</html>
