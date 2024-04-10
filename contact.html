@@ -11,6 +11,11 @@
         <script src="js/scripts.js"></script>
 
     </head>
+    <style>
+        textarea {
+            resize: none;
+        }
+    </style>
     <body>
 
         <div class="menu-bar">
@@ -53,8 +58,16 @@
             <div class="row">
                 <div class="full">
                     
-                    <form>
-                        
+                    <form style="text-align: left;">
+                        <label for= "edtName"> Name: </label><br>
+                        <input type= "text" id= "edtName" style="width: 97%;" /><br><br>
+                        <label for= "edtSurname"> Surname: </label><br>
+                        <input type= "text" id= "edtSurname" style="width: 97%;"/><br><br>
+                        <label for= "edtMail"> E-mail: </label><br>
+                        <input type= "email" id= "edtMail" style="width: 97%;"/><br><br>
+                        <label for= "edtSubject"> Message: </label><br>
+                        <textarea style="width: 97%; height: 70px;"></textarea><br><br>
+                        <input type = "submit" value = "Submit"/>    
                     </form>
 
                     
