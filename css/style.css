@@ -192,5 +192,23 @@ body {
     position: relative;
     height: 50%;
     min-height:300px;
-  
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+  th {
+    border-bottom: 1px #b4b4b4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding: 3px;
+  }
+
+  td {
+    padding: 3px;
   }
